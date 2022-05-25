@@ -14,5 +14,5 @@
 * 數學式子
   * 假設訓練資料為
   * 
-* 應用範例：[Heart Disease UCI](https://www.kaggle.com/ronitf/heart-disease-uci)
+* 應用範例：[Heart Disease UCI](https://www.kaggle.com/c/heart-disease-uci/data)
 
