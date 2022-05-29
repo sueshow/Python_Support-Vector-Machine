@@ -9,11 +9,9 @@
     * 假設紅線是 w*x=0 在紅線上方的區域就是 w*x >0 紅線下方的區域就是 w*x <0，同理類推來看在左邊虛線上方的區域是 w*x <-k 在右邊虛線下方的區域是 w*x >k，虛線中間不會有資料點
   
       ![圖示01](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_01.png)
-      
       ![圖示02](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_02.png)
-
       ![圖示03](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_03.png)
-<br>
+
 * 優點
   * 使用核函數可以有效處理高維數據
   * 透過不同核函數的選擇，可以處理不同的資料
