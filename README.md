@@ -14,5 +14,7 @@
 * 數學式子
   * 假設訓練資料為
   * 
-* 應用範例：[Heart Disease UCI](https://www.kaggle.com/c/heart-disease-uci/data)
-
+* Kaggle
+  * 範例資料：[Heart Disease UCI](https://www.kaggle.com/c/heart-disease-uci/data)
+  * 分析結果：[Heart Disease UCI](https://github.com/sueshow/Comp_Kaggle/blob/main/%E7%9B%A3%E7%9D%A3_SVM_%E5%AE%8C%E6%95%B4%E7%89%88_Kaggle_Heart_Disease_UCI.ipynb)
+* 參考資料
