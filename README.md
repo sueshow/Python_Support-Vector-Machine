@@ -8,11 +8,11 @@
     * 以直線來說，首先紅色的線會創造兩條黑色平行於紅色線的虛線，並讓黑線平移碰到最近的一個點，紅線到黑線的距離稱為 Margin，而 SVM 就是透過去找 Margin 最大的那個紅線來找最好的線
     * 假設紅線是 w*x=0 在紅線上方的區域就是 w*x >0 紅線下方的區域就是 w*x <0，同理類推來看在左邊虛線上方的區域是 w*x <-k 在右邊虛線下方的區域是 w*x >k，虛線中間不會有資料點
 <br>
-![圖示01](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_01.png))
+![圖示01](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_01.png)
 <br>
-![圖示02](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_02.png))
+![圖示02](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_02.png)
 <br>
-![圖示03](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_03.png))
+![圖示03](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_03.png)
 <br>
 * 優點
   * 使用核函數可以有效處理高維數據
