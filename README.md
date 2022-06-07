@@ -10,6 +10,12 @@
     * 假設紅線是 w*x =0 在紅線上方的區域就是 w*x >0 紅線下方的區域就是 w*x <0，同理類推來看在左邊虛線上方的區域是 w*x <-k 在右邊虛線下方的區域是 w*x >k，虛線中間不會有資料點
     * 虛線上的點 X1、X2 就是所謂的支援向量(Support vector)，我們主要是利用支援向量來算出 Margin，並最大化 Margin。利用高中數學的知識將 X1 向量- X2 向量得到的向量投影到 W ，在 Y*(W*X) ≥k 的條件下(虛線中間沒有點)，來最大化 margin
     * 公式：$$\bf{\frac{w}{ ||w|| }\cdot (x_+ – x_-)} =\bf{\frac{w^T(x_+-x_-)}{||w||}}=\frac{k}{\bf{||w||}}$$
+    * Kernel
+      * 多項式核函數
+        * $$K(\bf{x_i,x_j})=(\bf{x_i \cdot x_j})^d$$
+        * $$K(\bf{x_i,x_j})=(1+ \bf{x_i \cdot x_j})^d$$
+      * 高斯核函數：$$K(\bf{x_i,x_j})=exp(-\frac{||\bf{x_i-x_j}||^2}{2 \sigma^2})$$
+      * Sigmoid核函數：$$K(\bf{x_i,x_j})=tanh(\kappa(\bf{x_i \cdot x_j})+\theta)$$
 
 * 優點
   * 使用核函數(Kernel)可以有效處理高維數據
