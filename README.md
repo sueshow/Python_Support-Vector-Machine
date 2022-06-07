@@ -11,16 +11,6 @@
     * 虛線上的點 X1、X2 就是所謂的支援向量(Support vector)，我們主要是利用支援向量來算出 Margin，並最大化 Margin。利用高中數學的知識將 X1 向量- X2 向量得到的向量投影到 W ，在 Y*(W*X) ≥k 的條件下(虛線中間沒有點)，來最大化 margin
     * 公式：$$\bf{\frac{w}{ ||w|| }\cdot (x_+ – x_-)} =\bf{\frac{w^T(x_+-x_-)}{||w||}}=\frac{k}{\bf{||w||}}$$
 
-      ![得到那條很好的線](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_01.png)
-      <br>
-      ![讓Margin最大01](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_02.png)
-      <br>
-      ![讓Margin最大02](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_03.png)
-      <br>
-      ![怎麼計算margin](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_04.png)
-      <br>
-      ![公式](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_05.png)
-      <br>
 * 優點
   * 使用核函數(Kernel)可以有效處理高維數據
   * 透過不同核函數的選擇，可以處理不同的資料
