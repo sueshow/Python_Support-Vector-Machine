@@ -20,7 +20,7 @@
     <br>
     ![公式](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_05.png)
     <br>
-    \bf{\frac{w}{ ||w|| }\cdot (x_+ – x_-)} =\bf{\frac{w^T(x_+-x_-)}{||w||}}=\frac{k}{\bf{||w||}}
+    $$\bf{\frac{w}{ ||w|| }\cdot (x_+ – x_-)} =\bf{\frac{w^T(x_+-x_-)}{||w||}}=\frac{k}{\bf{||w||}}$$
 
 * 優點
   * 使用核函數(Kernel)可以有效處理高維數據
