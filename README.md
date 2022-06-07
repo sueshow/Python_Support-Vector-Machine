@@ -28,6 +28,7 @@
 * 缺點
   * 維度過高容易造成運算上的負擔
   * 特徵遠大於樣本的情況下容易造成過度擬和的問題
+* 圖示說明
 
       ![得到那條很好的線](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_01.png)
       <br>
