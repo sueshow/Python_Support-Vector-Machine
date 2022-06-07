@@ -12,10 +12,10 @@
     * 公式：$$\bf{\frac{w}{ ||w|| }\cdot (x_+ – x_-)} =\bf{\frac{w^T(x_+-x_-)}{||w||}}=\frac{k}{\bf{||w||}}$$
     * Kernel
       * 多項式核函數
-        * $$K(\bf{x_i,x_j})=(\bf{x_i \cdot x_j})^d$$
-        * $$K(\bf{x_i,x_j})=(1+ \bf{x_i \cdot x_j})^d$$
-      * 高斯核函數：$$K(\bf{x_i,x_j})=exp(-\frac{||\bf{x_i-x_j}||^2}{2 \sigma^2})$$
-      * Sigmoid核函數：$$K(\bf{x_i,x_j})=tanh(\kappa(\bf{x_i \cdot x_j})+\theta)$$
+        * $K(\bf{x_i,x_j})=(\bf{x_i \cdot x_j})^d$
+        * $K(\bf{x_i,x_j})=(1+ \bf{x_i \cdot x_j})^d$
+      * 高斯核函數：$K(\bf{x_i,x_j})=exp(-\frac{||\bf{x_i-x_j}||^2}{2 \sigma^2})$
+      * Sigmoid核函數：$K(\bf{x_i,x_j})=tanh(\kappa(\bf{x_i \cdot x_j})+\theta)$
 
 * 優點
   * 使用核函數(Kernel)可以有效處理高維數據
