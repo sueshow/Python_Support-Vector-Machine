@@ -17,6 +17,7 @@
         * $K(\bf{x_i,x_j})=(1+ \bf{x_i \cdot x_j})^d$
       * 高斯核函數：$K(\bf{x_i,x_j})=exp(-\frac{||\bf{x_i-x_j}||^2}{2 \sigma^2})$
       * Sigmoid核函數：$K(\bf{x_i,x_j})=tanh(\kappa(\bf{x_i \cdot x_j})+\theta)$
+      * 其中在這邊，$d$ 為一整數，$\sigma, \kappa, \theta$ 屬於實數
 
 * 優點
   * 使用核函數(Kernel)可以有效處理高維數據
