@@ -11,8 +11,14 @@
     * 虛線上的點 X1、X2 就是所謂的支援向量(Support vector)，我們主要是利用支援向量來算出 Margin，並最大化 Margin。利用高中數學的知識將 X1 向量- X2 向量得到的向量投影到 W ，在 Y*(W*X) ≥k 的條件下(虛線中間沒有點)，來最大化 margin
     * 公式：$$\bf{\frac{w}{ ||w|| }\cdot (x_+ – x_-)} =\bf{\frac{w^T(x_+-x_-)}{||w||}}=\frac{k}{\bf{||w||}}$$
 
-  * 圖示說明<br>
-  
+* 優點
+  * 使用核函數(Kernel)可以有效處理高維數據
+  * 透過不同核函數的選擇，可以處理不同的資料
+  * 決策函數由少量的支持向量決定，預測效率高
+* 缺點
+  * 維度過高容易造成運算上的負擔
+  * 特徵遠大於樣本的情況下容易造成過度擬和的問題
+
       ![得到那條很好的線](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_01.png)
       <br>
       ![讓Margin最大01](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_02.png)
@@ -23,14 +29,7 @@
       <br>
       ![公式](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_05.png)
       <br>
-
-* 優點
-  * 使用核函數(Kernel)可以有效處理高維數據
-  * 透過不同核函數的選擇，可以處理不同的資料
-  * 決策函數由少量的支持向量決定，預測效率高
-* 缺點
-  * 維度過高容易造成運算上的負擔
-  * 特徵遠大於樣本的情況下容易造成過度擬和的問題
+      
 * Kaggle
   * 範例資料：[Heart Disease UCI](https://www.kaggle.com/c/heart-disease-uci/data)
   * 分析結果：
