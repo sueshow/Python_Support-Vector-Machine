@@ -30,16 +30,16 @@
   * 特徵遠大於樣本的情況下容易造成過度擬和的問題
 * 圖示說明
 
-      ![得到那條很好的線](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_01.png)
-      <br>
-      ![讓Margin最大01](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_02.png)
-      <br>
-      ![讓Margin最大02](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_03.png)
-      <br>
-      ![怎麼計算margin](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_04.png)
-      <br>
-      ![公式](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_05.png)
-      <br>
+  ![得到那條很好的線](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_01.png)
+  <br>
+  ![讓Margin最大01](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_02.png)
+  <br>
+  ![讓Margin最大02](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_03.png)
+  <br>
+  ![怎麼計算margin](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_04.png)
+  <br>
+  ![公式](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_05.png)
+  <br>
       
 * Kaggle
   * 範例資料：[Heart Disease UCI](https://www.kaggle.com/c/heart-disease-uci/data)
