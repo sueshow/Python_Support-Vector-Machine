@@ -9,6 +9,7 @@
     * 以直線來說，首先紅色的線會創造兩條黑色平行於紅色線的虛線，並讓黑線平移碰到最近的一個點，紅線到黑線的距離稱為 Margin，而 SVM 就是透過去找 Margin 最大的那個紅線來找最好的線
     * 假設紅線是 w*x =0 在紅線上方的區域就是 w*x >0 紅線下方的區域就是 w*x <0，同理類推來看在左邊虛線上方的區域是 w*x <-k 在右邊虛線下方的區域是 w*x >k，虛線中間不會有資料點
     * 虛線上的點 X1、X2 就是所謂的支援向量(Support vector)，我們主要是利用支援向量來算出 Margin，並最大化 Margin。利用高中數學的知識將 X1 向量- X2 向量得到的向量投影到 W ，在 Y*(W*X) ≥k 的條件下(虛線中間沒有點)，來最大化 margin
+    * 公式：$$\bf{\frac{w}{ ||w|| }\cdot (x_+ – x_-)} =\bf{\frac{w^T(x_+-x_-)}{||w||}}=\frac{k}{\bf{||w||}}$$
     
     ![得到那條很好的線](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_01.png)
     <br>
@@ -19,8 +20,7 @@
     ![怎麼計算margin](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_04.png)
     <br>
     ![公式](https://github.com/sueshow/Support-Vector-Machine/blob/main/picture/SVM_05.png)
-    <br>
-    $$\bf{\frac{w}{ ||w|| }\cdot (x_+ – x_-)} =\bf{\frac{w^T(x_+-x_-)}{||w||}}=\frac{k}{\bf{||w||}}$$
+
 
 * 優點
   * 使用核函數(Kernel)可以有效處理高維數據
